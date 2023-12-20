@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+--white:var(--white);
+--dark:var(black);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Roboto";
+    background-color: var(white);
+}
+.title {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#c03131, #1aad75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color : transparent;
+}
+
+
+h1
+h2
+h3
+h4
+h5
+h6 {
+    margin: 0;
+}
+ p{
+    margin: 0;
+ }
+
+ header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(3, 105, 221);
+    box-shadow: 0 5px 35px rbga(146, 204, 206,);
+ }
+
+ header span {
+    color: purple;
+    background-color: black;
+    margin: 0px;
+    font-size: 4vw;
+    line-height: 1;
+ }
+
+ nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ nav  a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.4rem;
+ }
+
+ nav a:hover{
+    color: #1aad75;
+    background-size: 100% 100%
+ } 
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+ main {
+    margin-right: 20px;
+    margin-bottom: 45px;
+ }
+
+ .hero {
+    padding: 2% 6%;
+    justify-content: center;
+    min-height: 30vh ;
+    align-items: flex-end;
+    text-align: center;
+ }
+
+.hero div {
+    flex: 0 0 90%;
+}
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right:15px;
+    border-right: 4px solid white;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 77%
+}
+
+
+.page-section p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+.flex-container {
+    border: 5px solid rebeccapurple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item:hover {
+
+}
+
+.railroad {
+    height: 200px;
+    width: 300px;
+}
