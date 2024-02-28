@@ -137,6 +137,7 @@ nav a:last-child {
 
 .flex-container {
     border: 5px solid rebeccapurple;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -149,4 +150,9 @@ nav a:last-child {
 .railroad {
     height: 200px;
     width: 300px;
+}
+
+.proPhoto{
+    height: 200px;
+    width: 200px;
 }
